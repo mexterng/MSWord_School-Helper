@@ -17,11 +17,10 @@ Mit Hilfe von Makros für Microsoft-Word können unterschiedliche Ansichten ausg
 # Installation
 - **Quellcode herunterladen**    
 - **Makro hinzufügen**
-    - Lokal (für aktuelles Dokument): Entwicklertools ⇒ Visual Basic ⇒ Normal ⇒ Module ⇒ Rechts Klick ⇒ Datei importieren ⇒ DocumentHelper.bas auswählen
+    - Empfohlen: Global (für alle Dokumente): Entwicklertools ⇒ Visual Basic ⇒ Normal ⇒ Module ⇒ Rechts Klick ⇒ Datei importieren ⇒ DocumentHelper.bas auswählen
+    - Lokal (für aktuelles Dokument): Entwicklertools ⇒ Visual Basic ⇒ Project (*\<Dokumentname\>*) ⇒ Module ⇒ Rechts Klick auf Module ⇒ Datei importieren ⇒ DocumentHelper.bas auswählen
+       ⚠️ *Word-Dokument muss anschließend als \*.docm (Dokument mit Makros) gespeichert werden.* ⚠️        
       
-      ⚠️ *Word-Dokument muss anschließend als \*.docm (Dokument mit Makros) gespeichert werden.* ⚠️        
-      
-    - Global (für alle Dokumente): Entwicklertools ⇒ Visual Basic ⇒ Project (*\<Dokumentname\>*) ⇒ Module ⇒ Rechts Klick auf Module ⇒ Datei importieren ⇒ DocumentHelper.bas auswählen
 - **Makro zu Menüband hinzufügen**
     Wordoptionen ⇒ Menüband anpassen ⇒ Befehle auswählen: Makros ⇒ gewünschte Registerkarte und Gruppe auswählen.
     (Ggf. Beschriftung und Icon anpassen)
