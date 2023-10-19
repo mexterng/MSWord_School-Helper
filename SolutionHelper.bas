@@ -33,14 +33,14 @@ Sub Exporter(teacher As Boolean)
         .InitialView = msoFileDialogViewList
         .InitialFileName = ActiveDocument.Path & Application.PathSeparator & Split(ActiveDocument.Name, ".")(0) & "_" & var & ".pdf"
         .FilterIndex = 7
-        .Title = "Speichern unter ... (Exportdatei für " & var & ")"
+        .Title = "Speichern unter ... (Exportdatei fÃ¼r " & var & ")"
 
     End With
   ' Should be saved?
     If SaveAsDlg.Show <> 0 Then
-        Application.StatusBar = "PDF-Export für " & var & " läuft ..."
+        Application.StatusBar = "PDF-Export fÃ¼r " & var & " lÃ¤uft ..."
         DoEvents
-            ChangeRedToWhite ' Hide sample solutions
+            Changer (teacher) ' Hide sample solutions if necessary (var teacher)
             SaveAsDlg.Execute ' Save PDF
             ChangeWhiteToRed ' Show sample solutions
         Application.StatusBar = ""
