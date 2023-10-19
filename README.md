@@ -11,7 +11,7 @@ Mit Hilfe von Makros für Microsoft-Word können unterschiedliche Ansichten ausg
     - Microsoft Word (getestet ab Version 2010)
 - **Dokumentenaufbau**
     - Musterlösung muss in rot (RGB: 255,0,0) eingetragen werden
-    - Roter Text wird nur in **Fließtext, Kopf-/Fußzeile, Textboxen und Formen** ersetzt
+    - Roter Text wird in **Fließtext, Kopf-/Fußzeile, Textboxen und Formen** ersetzt. Text in **Tabellen** wird nur in wenigen Außnahmefällen *nicht* beachtet.
 
 
 # Installation
