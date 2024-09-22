@@ -1,7 +1,14 @@
+Attribute VB_Name = "GradeDistribution"
+Option Explicit
+Private Const SOL = "LOESUNG"
+Private Const SPEC = "ANGABE"
+Private CUSTOMCOLOR As Long
+Private Sub InitCustomColor()
+    CUSTOMCOLOR = RGB(255, 0, 0)
+End Sub
+
 Sub GenerateGradeDistributionLinear()
-    On Error Resume Next ' Ignore errors temporarily
     Call InitCustomColor
-    On Error GoTo 0 ' Reset error handling
     Dim maxPoints As Double
     maxPoints = GetMaxPoints()
 
@@ -25,9 +32,7 @@ Sub GenerateGradeDistributionLinear()
     PopulateTable MyTable, gradeDistribution, 6
 End Sub
 Sub GenerateGradeDistributionFiftyPercent()
-    On Error Resume Next ' Ignore errors temporarily
     Call InitCustomColor
-    On Error GoTo 0 ' Reset error handling
     Dim maxPoints As Double
     maxPoints = GetMaxPoints()
 
