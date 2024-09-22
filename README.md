@@ -1,10 +1,12 @@
-# Solution-Helper
+# Document-Helper
 Der “Musterlösung-Helfer” erstellt mit wenigen Klicks zwei Versionen eines Dokuments:
 - Exemplar für Schülerinnen und Schüler
 - Exemplar für Lehrkraft (Musterlösung)
-
 Mit Hilfe von Makros für Microsoft-Word können unterschiedliche Ansichten ausgewählt werden und schnelle PDF-Exporte durchgeführt werden.
 
+Die Erweiterung “Notenschlüssel-Tabelle” erstellt automatisch nach Eingabe der Gesamtpunktzahl eine Tabelle für den Notenschlüssel:
+- Lineare Notenschlüssel (erste 4 gibt es bei 50%)
+- 50%-Notenschlüssel (letzte 4 gibt es bei 50%)
 
 # Voraussetzungen
 - **Software**
@@ -17,8 +19,8 @@ Mit Hilfe von Makros für Microsoft-Word können unterschiedliche Ansichten ausg
 # Installation
 - **Quellcode herunterladen**    
 - **Makro hinzufügen**
-    - Empfohlen: Global (für alle Dokumente): Entwicklertools ⇒ Visual Basic ⇒ Normal ⇒ Module ⇒ Rechts Klick ⇒ Datei importieren ⇒ DocumentHelper.bas auswählen
-    - Lokal (für aktuelles Dokument): Entwicklertools ⇒ Visual Basic ⇒ Project (*\<Dokumentname\>*) ⇒ Module ⇒ Rechts Klick auf Module ⇒ Datei importieren ⇒ DocumentHelper.bas auswählen  
+    - Empfohlen: Global (für alle Dokumente): Entwicklertools ⇒ Visual Basic ⇒ Normal ⇒ Module ⇒ Rechts Klick ⇒ Datei importieren ⇒ SolutionHelper.bas auswählen
+    - Lokal (für aktuelles Dokument): Entwicklertools ⇒ Visual Basic ⇒ Project (*\<Dokumentname\>*) ⇒ Module ⇒ Rechts Klick auf Module ⇒ Datei importieren ⇒ SolutionHelper.bas auswählen  
       ⚠️ *Word-Dokument muss anschließend als \*.docm (Dokument mit Makros) gespeichert werden.* ⚠️        
       
 - **Makro zu Menüband hinzufügen**
@@ -46,4 +48,12 @@ Mit Hilfe von Makros für Microsoft-Word können unterschiedliche Ansichten ausg
     Ersetzt alle *roten* Zeichen in *weiße* Zeichen (Ansicht für Schülerinnen und Schüler)
 - **ChangeWhiteToRed()**
     Ersetzt alle *weißen* Zeichen in *rote* Zeichen (Ansicht für Lehrkraft)
+
+    ---
+  
+- **GenerateGradeDistributionLinear()**
+    Erstellt Lineare Notenschlüssel (erste 4 gibt es bei 50%) 
+- **GenerateGradeDistributionFiftyPercent()**
+    50%-Notenschlüssel (letzte 4 gibt es bei 50%)
+  
 
