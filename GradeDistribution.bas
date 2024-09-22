@@ -1,7 +1,5 @@
 Attribute VB_Name = "GradeDistribution"
 Option Explicit
-Private Const SOL = "LOESUNG"
-Private Const SPEC = "ANGABE"
 Private CUSTOMCOLOR As Long
 Private Sub InitCustomColor()
     CUSTOMCOLOR = RGB(255, 0, 0)
