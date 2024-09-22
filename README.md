@@ -1,4 +1,4 @@
-# Document-Helper
+# School-Helper
 Der “Musterlösung-Helfer” erstellt mit wenigen Klicks zwei Versionen eines Dokuments:
 - Exemplar für Schülerinnen und Schüler
 - Exemplar für Lehrkraft (Musterlösung)
