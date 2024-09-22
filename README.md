@@ -1,5 +1,6 @@
 # School-Helper
 *english version below*
+
 Der “Musterlösung-Helfer” erstellt mit wenigen Klicks zwei Versionen eines Dokuments:
 - Exemplar für Schülerinnen und Schüler
 - Exemplar für Lehrkraft (Musterlösung)
@@ -11,6 +12,7 @@ Die Erweiterung “Notenschlüssel-Tabelle” erstellt automatisch nach Eingabe 
 
 # Voraussetzungen
 *english version below*
+
 - **Software**
     - Microsoft Word (getestet ab Version 2010)
 - **Dokumentenaufbau**
@@ -20,6 +22,7 @@ Die Erweiterung “Notenschlüssel-Tabelle” erstellt automatisch nach Eingabe 
 
 # Installation
 *english version below*
+
 - **Quellcode herunterladen**    
 - **Makro hinzufügen**
     - Empfohlen: Global (für alle Dokumente): Entwicklertools ⇒ Visual Basic ⇒ Normal ⇒ Module ⇒ Rechts Klick ⇒ Datei importieren ⇒ SolutionHelper.bas auswählen
@@ -35,6 +38,7 @@ Die Erweiterung “Notenschlüssel-Tabelle” erstellt automatisch nach Eingabe 
 
 # Verwendung
 *english version below*
+
 - **ExportAll()**
     1. Öffnet “Speichern unter …”-Dialog für Version für Lehrkraft
     2. Öffnet “Speichern unter …”-Dialog für Version für Schülerinnen und Schüler
